@@ -1,0 +1,23 @@
+#introduction .image-container {
+    display: flex;
+    align-items: stretch;
+    height: 300px;
+}
+
+#introduction .image-container img {
+    height: 100%;
+    width: auto;
+    margin-right: 20px; /* Optional spacing between the images */
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+}
+.twothirds {
+    width: 66.66%;  /* This is two-thirds of the page width */
+    
+}
+
+/* Apply Lato Light (300) font to the entire page */
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;  /* Use the light weight */
+    font-size: 25px;
+}

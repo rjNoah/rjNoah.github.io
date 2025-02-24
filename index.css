@@ -1,10 +1,10 @@
-#introduction .image-container {
+.image-container {
     display: flex;
     align-items: stretch;
     height: 300px;
 }
 
-#introduction .image-container img {
+.image-container img {
     height: 100%;
     width: auto;
     margin-right: 20px; /* Optional spacing between the images */
@@ -21,3 +21,4 @@ body {
     font-weight: 300;  /* Use the light weight */
     font-size: 25px;
 }
+
